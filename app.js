@@ -21,8 +21,6 @@ const listingRouter=require("./routes/listing.js");
 const reviewRouter=require("./routes/review.js");
 const userRouter=require("./routes/user.js");
 
-//const MONGO_URL = "mongodb+srv://Wanderlust:wander210@aniket.ne33k.mongodb.net/?retryWrites=true&w=majority&appName=Aniket";
-
 const dbUrl = process.env.ATLASDB_URL;
 
 main()
@@ -50,7 +48,7 @@ const store = MongoStore.create({
         secret: process.env.SECRET, 
     }, 
     touchAfter: 24*3600, 
-})
+}) 
 
 store.on("error",()=>{
     console.log("Error in Mongo Session store",err);
