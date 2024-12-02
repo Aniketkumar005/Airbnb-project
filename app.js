@@ -21,6 +21,8 @@ const listingRouter=require("./routes/listing.js");
 const reviewRouter=require("./routes/review.js");
 const userRouter=require("./routes/user.js");
 
+const port = process.env.PORT;
+
 const dbUrl = process.env.ATLASDB_URL;
 
 main()
@@ -98,8 +100,8 @@ app.use((err, req, res, next)=>{
 });
 
 
-app.listen(8080,()=>{
-    console.log("listening on port 8080");
+app.listen(port,()=>{
+    console.log(`listening on port ${port}`);
 });  
  
  
