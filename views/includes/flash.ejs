@@ -1,16 +1,15 @@
 
-<% if(success && success.length){ %>
+<% if (success && success.length) { %>
 
-<div class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
-    <%= success %>
-<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> </div>
-
+  <div class="alert alert-success alert-dismissible fade show mx-auto" role="alert" style="max-width: 500px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+     <%= success %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
 <% } %>
 
-<% if(error && error.length){ %>
-
-<div class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
+<% if (error && error.length) { %>
+  <div class="alert alert-danger alert-dismissible fade show mx-auto" role="alert" style="max-width: 500px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <%= error %>
-<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> </div>
-
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
 <% } %>

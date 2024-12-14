@@ -11,7 +11,7 @@ try{
     let {username, email, password} = req.body;
     const newUser = new User({email,username});
     const registeredUser = await User.register(newUser, password);
-    console.log(registeredUser);
+ 
     req.login(registeredUser, (err)=>{
         if(err){
             return next(err);
@@ -43,7 +43,7 @@ module.exports.logout = (req, res, next)=>{
         if(err){
             return next(err);
         }else{
-            req.flash("success","you are logged out! ");
+            req.flash("success","you are logged out Successfully.");
             res.redirect("/listings");
         }
     });

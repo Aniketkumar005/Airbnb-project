@@ -205,3 +205,85 @@ body {
 a{
         color:black;
 }
+
+
+/* Base styles for Dark Mode */
+body[data-bs-theme="dark"] {
+  background-color: #121212; /* Dark background */
+  color: white; /* White text */
+}
+
+/* Navbar in Dark Mode */
+body[data-bs-theme="dark"] .navbar {
+  background-color: #333; /* Dark background for navbar */
+  color: white ;
+}
+
+body[data-bs-theme="dark"] .navbar-nav .nav-link {
+  color: #fe424d !important; /* White text for navbar links */
+}
+
+body[data-bs-theme="dark"] .search-btn {
+  background-color: #fe424d !important; /* White text for navbar links */
+}
+
+body[data-bs-theme="dark"] .navbar-nav .nav-link:hover {
+  color: #ddd; /* Lighten the color on hover */
+}
+
+/* Card background in Dark Mode */
+body[data-bs-theme="dark"] .card {
+  background-color: #1e1e1e; /* Dark card background */
+  border-color: #444; /* Dark border */
+}
+
+body[data-bs-theme="dark"] .card-body {
+  color: white; /* White text inside cards */
+}
+
+/* Footer Text in Dark Mode */
+body[data-bs-theme="dark"] .f-info,
+body[data-bs-theme="dark"] .f-info-links a,
+body[data-bs-theme="dark"] .f-info-brand {
+  color: white; /* White text for footer */
+}
+
+body[data-bs-theme="dark"] .f-info-links a:hover {
+  color: #ddd; /* Lighter color on hover for links */
+}
+
+/* Filters in Dark Mode */
+body[data-bs-theme="dark"] .filter a{
+  color: white !important; /* White text for filters */
+}
+
+/* Tax Info Text in Dark Mode */
+body[data-bs-theme="dark"] .tax-info {
+  color: white; /* White text for tax info */
+}
+
+/* Dark Mode Specific Styling for Buttons */
+body[data-bs-theme="dark"] .btn {
+  background-color: #333;
+  color: white;
+}
+
+body[data-bs-theme="dark"] .btn:hover {
+  background-color: #444;
+}
+
+/* Adjust the background color for sections */
+body[data-bs-theme="dark"] .listing-card {
+  background-color: #333;
+  border: 1px solid #444;
+}
+
+body[data-bs-theme="dark"] .f-info,
+body[data-bs-theme="dark"] .f-info-links a,
+body[data-bs-theme="dark"] .f-info-brand {
+  color: black; /* White text for footer */
+}
+
+body[data-bs-theme="dark"] .f-info-links a:hover {
+  color: #ddd; /* Lighter color on hover for links */
+}
