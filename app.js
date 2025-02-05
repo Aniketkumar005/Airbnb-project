@@ -56,7 +56,7 @@ store.on("error",()=>{
     console.log("Error in Mongo Session store",err);
 })
 
-const sessionOptions={
+/*const sessionOptions={
     store, 
     secret: process.env.SECRET, 
     resave: false, 
@@ -67,6 +67,21 @@ const sessionOptions={
         httpOnly: true, 
     }, 
 } 
+*/ 
+
+const sessionOptions={
+    store, 
+    secret: process.env.SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: { 
+       secure: true, 
+       httpOnly: true, 
+       sameSite: "strict" , 
+       }, 
+
+}
+
 
 app.use(session(sessionOptions));
 app.use(flash());
