@@ -2,6 +2,11 @@
 
 This is a full-stack **Airbnb clone** application built with **Node.js**, **Express**, **MongoDB**, and **Bootstrap**. It allows users to list properties, search for listings, and leave reviews. The project also includes a basic implementation of authentication using **Passport.js**.
 
+## 🚀 Live Demo  
+👉 **[Live Airbnb clone](https://airbnb-project-production-25b8.up.railway.app/)**  
+
+---
+
 ## Features ✨
 
 - **User Authentication**: Users can sign up, log in, and log out.
