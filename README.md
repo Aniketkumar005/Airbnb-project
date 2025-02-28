@@ -10,18 +10,27 @@ This is a full-stack **Airbnb clone** application built with **Node.js**, **Expr
 ## Features ✨
 
 - **User Authentication**: Users can sign up, log in, and log out.
+
 - **Listing Management**: Users can create, edit, and delete listings.
+
 - **Reviews**: Users can leave reviews on listings.
+
 - **Dark Mode**: The application supports a dark mode toggle.
+
 - **Responsive Design**: The app is mobile-friendly, designed using **Bootstrap**.
 
 ## Technologies Used 🛠️
 
 - **Backend**: Node.js, Express.js
+
 - **Database**: MongoDB (with Mongoose)
+
 - **Authentication**: Passport.js
+
 - **File Storage**: Cloudinary for image uploads
+
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5, FontAwesome
+
 - **Environment Variables**: For sensitive data like API keys, MongoDB URI, etc.
 
 ## Installation 🧰
@@ -31,6 +40,7 @@ This is a full-stack **Airbnb clone** application built with **Node.js**, **Expr
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (Recommended version: LTS)
+
 - [MongoDB](https://www.mongodb.com/) (or use MongoDB Atlas for cloud database)
 
 ### Steps to Run Locally 🖥️
@@ -80,20 +90,26 @@ This will start the server http://localhost:3000.
 
 
 ## Deployment 🌐
+
 If you want to deploy this project, you can follow these steps for deploying on Render, Heroku, or any other cloud platform.
 
 ## Deploy on Render: 🧪
 
 1. Go to Render Dashboard and create a new web service.
+
 2. Connect to your GitHub repository.
+
 3. Set up environment variables in Render’s settings.
+
 4. Deploy the project.
 
 
 ## Usage 🛞
 
 1. Visit the home page to explore the available listings.
+
 2. You can sign up or log in to add your own listings.
+
 3. Leave reviews for listings and manage your own listings if you're logged in.
 
 
@@ -110,4 +126,5 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 ## Acknowledgments 🙌
 
 1. Thanks to Bootstrap for the responsive layout and Font Awesome for icons.
+
 2. Special thanks to MongoDB Atlas for providing a cloud database solution and Cloudinary for file storage.
